@@ -10,6 +10,7 @@
 <!-- Badges -->
 ![Arduino](https://img.shields.io/badge/Arduino-UNO%20R3-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![IoT](https://img.shields.io/badge/IoT-ESP8266%2FESP32-FF6900?style=for-the-badge&logo=esphome&logoColor=white)
+![C++](https://img.shields.io/badge/C++-Embedded-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-28A745?style=for-the-badge)
 ![University](https://img.shields.io/badge/Apeejay%20Stya-University-1A56A0?style=for-the-badge)
 
@@ -149,8 +150,6 @@ The robot:
 ```
 
 ---
-
-
 
 ## 📡 IoT Integration
 
