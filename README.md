@@ -129,22 +129,22 @@ The robot:
 │                   ROBOT LOGIC FLOW                  │
 ├─────────────────────────────────────────────────────┤
 │                                                     │
-│  START → Servo centers at 90° (facing forward)     │
+│  START → Servo centers at 90° (facing forward)      │
 │       ↓                                             │
-│  Ultrasonic measures distance every loop           │
+│  Ultrasonic measures distance every loop            │
 │       ↓                                             │
 │  distance > 20cm?                                   │
-│  ├── YES → All 4 motors FORWARD → keep cutting     │
-│  └── NO  → STOP all motors (obstacle detected!)    │
+│  ├── YES → All 4 motors FORWARD → keep cutting      │
+│  └── NO  → STOP all motors (obstacle detected!)     │
 │           ↓                                         │
-│       Servo scans RIGHT (30°) → measure distR      │
-│       Servo scans LEFT (150°) → measure distL      │
+│       Servo scans RIGHT (30°) → measure distR       │
+│       Servo scans LEFT (150°) → measure distL       │
 │           ↓                                         │
 │       distR > distL?                                │
 │       ├── YES → Turn RIGHT (400ms)                  │
 │       └── NO  → Turn LEFT  (400ms)                  │
 │           ↓                                         │
-│       Resume FORWARD movement → repeat             │
+│       Resume FORWARD movement → repeat              │
 │                                                     │
 └─────────────────────────────────────────────────────┘
 ```
@@ -215,6 +215,8 @@ The robot:
 ---
 
 ## 📄 License
+
+MIT license
 
 This project is for **academic purposes** under Apeejay Stya University.  
 Feel free to fork, learn, and build upon it! ⭐
