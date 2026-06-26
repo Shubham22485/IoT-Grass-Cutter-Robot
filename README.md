@@ -216,7 +216,7 @@ The robot:
 
 ## 📄 License
 
-MIT license
+Released under the **MIT License**. See [LICENSE](LICENSE) for details.
 
 This project is for **academic purposes** under Apeejay Stya University.  
 Feel free to fork, learn, and build upon it! ⭐
